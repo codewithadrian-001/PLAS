@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Login Page Styles */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Admin Dashboard Styles */
+.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-header {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.admin-table th {
+    background-color: #f2f2f2;
+}
+
+/* Student Dashboard Styles */
+.student-dashboard {
+    padding: 20px;
+}
+
+.student-header {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+}
+
+.student-info {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.student-grades {
+    margin: 20px 0;
+}
+
+.student-grades th, .student-grades td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
